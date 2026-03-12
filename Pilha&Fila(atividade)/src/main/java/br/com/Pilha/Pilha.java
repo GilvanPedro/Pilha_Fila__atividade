@@ -13,7 +13,7 @@ public class Pilha {
 
     // Exibir elementos
     public void consultar() {
-        if (topo2 == null) {
+        if (topo == null) {
             System.out.println("Nenhuma guia aberta");
             return;
         }
